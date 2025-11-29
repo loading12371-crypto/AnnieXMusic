@@ -42,3 +42,5 @@ unidecode
 wget
 yt-dlp[default]>=2025.11.12
 git+https://github.com/CertifiedCoders/youtube-search-python
+pip install --upgrade youtube-dl yt-dlp
+pip install --upgrade AnnieXMedia
