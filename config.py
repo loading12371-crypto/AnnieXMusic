@@ -8,19 +8,19 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID", 21846639))
+API_HASH = getenv("API_HASH", "2cebc99bd8378b5237b31ea8e7496d79)
+BOT_TOKEN = getenv("6513221042:AAGva2CK6E1O-u7KjwqndHZg5QxADYl-kP8")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+OWNER_ID = int(getenv("OWNER_ID", 1813373023))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Sachi_umlno")
+BOT_USERNAME = getenv("BOT_USERNAME", "ZERO_TWO_R0BOT")
+BOT_NAME = getenv("BOT_NAME", "˹Zero 𝙼ᴜsɪᴄ˼ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "infvibe")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003374118714))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
